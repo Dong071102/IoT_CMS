@@ -36,7 +36,7 @@ IPAddress local_IP(192, 168, 0, 111);  // Địa chỉ IP tĩnh của ESP32
 IPAddress gateway(192, 168, 0, 1);  // Gateway (Router)
 IPAddress subnet(255, 255, 255, 0);  // Subnet mask
 ```
-# 📸 **Hướng Dẫn Chạy Ứng Dụng Camera với ESP32 trên Arduino IDE**
+# 📸 **Hướng Dẫn Chạy Ứng Dụng Camera với ESP32 CAM trên Arduino IDE**
 
 ## 🔍 **Mô Tả**
 Ứng dụng này sử dụng **ESP32 Camera Module** (chẳng hạn như AI Thinker) để phát trực tuyến hình ảnh từ camera qua **WiFi**. Mã nguồn sử dụng thư viện `esp_camera` để khởi tạo và cấu hình camera, sau đó sử dụng **WiFi** để kết nối mạng và khởi động một server để stream video từ camera.
@@ -68,7 +68,7 @@ Trước khi bắt đầu, bạn cần cài đặt **Arduino IDE** và cấu hì
 
 ### 3. **Chọn Board và Cổng COM**
 
-- Vào **Tools > Board**, chọn **ESP32 Wrover Module** hoặc module tương ứng với phần cứng của bạn (chẳng hạn **AI Thinker ESP32-CAM**).
+- Vào **Tools > Board**, chọn **AI Thinker ESP32-CAM** hoặc module tương ứng với phần cứng của bạn.
 - Vào **Tools > Port**, chọn đúng cổng COM mà ESP32 của bạn đang kết nối.
 
 ---
